@@ -1,13 +1,3 @@
-/*
-Copyright 2019, orcaer@yeah.net  All rights reserved.
-
-Author: orcaer@yeah.net
-
-Last modified: 2019-2-28
-
-Description: https://github.com/wlgq2/eomaia
-*/
-
 #ifndef     LOG_INTERFACE_H
 #define     LOG_INTERFACE_H
 

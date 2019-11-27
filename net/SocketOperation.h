@@ -24,11 +24,11 @@ public:
     static void close(int sockfd);
     static void getAddrAnyIpv4(struct sockaddr_in &addrIn, uint16_t port);
     /*
-     * 分离IP地址字符串中的端口号
+     * 对于整个的IP:port的socket字符串，将其拆分并配置成一个sockaddr_in
      */
     static bool toAddrIpv4(const std::string &addrIp, struct sockaddr_in &addrIn);
     /*
-     * 分离IP地址字符串中的ip的点分十进制
+     * 将参数给出的点分十进制的ip和端口号配置成 sockaddr_in
      */
     static bool toAddrIpv4(const std::string &addr, uint16_t port, struct sockaddr_in &addrIn);
     static bool toAddrIpv4(uint16_t port, struct sockaddr_in &addrIn);
